@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="Registration.css">
+    <link rel="icon" type="image/x-icon" href="Lib_Logo.png">
+</head>
+<body>
+    <h1>User Registration</h1>
+    <form onsubmit="return Reg()" action="Registration_submit.html">
+        <div class="full">
+            <div class="left">
+        
+                <table>
+
+                        <tr>
+                            <td><label>First Name: </label></td>
+                            <td><input type="text" id="fname" placeholder="Enter your first name"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Last Name: </label></td>
+                            <td><input type="text" id="lname" placeholder="Enter your last name"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>User Id: </label></td>
+                            <td><input type="text" id="uid" placeholder="Enter user id"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Password: </label></td>
+                            <td><input type="password" id="pass" placeholder="Enter password"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Gender: </label></td>
+                            <td>
+                                <select id="gen" name="gender" >
+                                    <option value="">Select gender</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                    
+                </table>
+
+            
+            </div>
+
+            <div class="right">
+
+                <table>
+
+                        <tr>
+                            <td><label>Address: </label></td>
+                            <td><textarea cols="40" rows="6" placeholder="Enter your permanent Address" id="adds" value="address"></textarea></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>City: </label></td>
+                            <td><input type="text" id="city" placeholder="Enter your City"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Phone No.: </label></td>
+                            <td><input type="tel" id="phn" placeholder="Enter your Contact Number"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Email Id: </label></td>
+                            <td><input type="email" id="mail" placeholder="Enter your Valid Email id"></td>
+                        </tr>
+
+
+                </table>
+
+            
+
+            </div>
+
+        </div>
+
+        <br><br><br>
+
+        <div class="buttons">
+            <button type="submit">Submit</button>
+            <button type="reset">Clear</button>
+        </div>
+    
+    </form>
+
+    <script src="Registration.js"></script>
+
+</body>
+</html>

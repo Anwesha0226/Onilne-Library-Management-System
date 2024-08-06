@@ -1,0 +1,50 @@
+body{
+    background-image: url(Background_img.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.photo{
+    margin-top: 70px;
+    width: auto;
+    text-align: center;
+    padding: 25px;
+}
+
+img{
+    height: 15%;
+    width: 15%;
+    object-fit: contain;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: black;
+    font-size: 50px;
+}
+
+.buttons {
+    display: flex;
+    justify-content:space-around;
+    gap: 10px;
+}
+
+.buttons button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-color: black;
+    border-radius: 5px;
+    width: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.buttons button:hover {
+    background-color: bisque;
+}

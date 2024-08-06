@@ -1,0 +1,55 @@
+body{
+ 
+
+  background-image: url(./asset/Background_img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  }
+  .navc{
+    background-color: #75FF33;
+  }
+  
+  .btnm{
+  background-color: rgb(127, 244, 255);
+  }
+  .slider{
+    margin:80px;
+    border-radius: 13px;
+    
+  }
+  .secondslider{
+    border-radius: 13px;
+    
+  }
+  .tag{
+    background-color: rgb(255, 223, 196);
+    color: #FF0000;
+  }
+  .down{
+    background-color: grey;
+    margin-top: 8%;
+  }
+  .ry{
+    height: 1000px;
+  }
+  .head{
+    text-align: center;
+    margin-bottom: 5%;
+    font-weight: 700;
+    font-size: 50px;
+    text-decoration: underline;
+    text-shadow: 0 0 6px #FF0000;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  .logo{
+    width: 70px;
+    margin-left: 20px;
+    border-radius: 10px;
+  
+  }
+ 
